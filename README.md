@@ -3,7 +3,7 @@ ShadowsocksR
 
 [![Build Status]][Travis CI]
 
-A fast tunnel proxy that helps you bypass firewalls.
+A fast tunnel proxy that helps you became moe.
 
 Server
 ------
@@ -12,24 +12,34 @@ Server
 
 Debian / Ubuntu:
 
-    apt-get install git
-    git clone https://github.com/shadowsocksr/shadowsocksr.git
+    apt install git
+    git clone https://github.com/moexy/shadowsocksr.git
 
-CentOS:
+CentOS / Fedora:
 
-    yum install git
-    git clone https://github.com/shadowsocksr/shadowsocksr.git
+    yum -y install git
+    git clone https://github.com/moexy/shadowsocksr.git
+    
+openSUSE:
+    
+    zypper in git
+    git clone https://github.com/moexy/shadowsocksr.git
+
+FreeBSD:
+    cd /usr/ports/devel/git
+    make install clean
+    git clone https://github.com/moexy/shadowsocksr.git
 
 Windows:
 
     git clone https://github.com/shadowsocksr/shadowsocksr.git
 
-### Usage for single user on linux platform
+### Usage for single user on unix based platform
 
 If you clone it into "~/shadowsocksr"  
 move to "~/shadowsocksr", then run:
 
-    bash initcfg.sh
+    sh initcfg.sh
 
 move to "~/shadowsocksr/shadowsocks", then run:
 
@@ -72,7 +82,7 @@ You can find all the documentation in the [Wiki].
 License
 -------
 
-Copyright 2015 clowwindy
+Copyright 2015 clowwindy/breakwa11/moexy
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may
 not use this file except in compliance with the License. You may obtain
@@ -94,12 +104,12 @@ Bugs and Issues
 
 
 [Android]:           https://github.com/shadowsocksr/shadowsocksr-android
-[Build Status]:      https://travis-ci.org/shadowsocksr/shadowsocksr.svg?branch=manyuser
+[Build Status]:      https://travis-ci.org/moexy/shadowsocksr.svg?branch=manyuser
 [Debian sid]:        https://packages.debian.org/unstable/python/shadowsocks
 [iOS]:               https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help
 [Issue Tracker]:     https://github.com/shadowsocksr/shadowsocksr/issues?state=open
 [OpenWRT]:           https://github.com/shadowsocks/openwrt-shadowsocks
 [macOS]:             https://github.com/shadowsocksr/ShadowsocksX-NG
-[Travis CI]:         https://travis-ci.org/shadowsocksr/shadowsocksr
+[Travis CI]:         https://travis-ci.org/moexy/shadowsocksr
 [Windows]:           https://github.com/shadowsocksr/shadowsocksr-csharp
 [Wiki]:              https://github.com/breakwa11/shadowsocks-rss/wiki
