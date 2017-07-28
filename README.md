@@ -13,13 +13,13 @@ Please install python3 first
 
 Debian / Ubuntu:
 
-    apt install git
+    apt install git
     git clone https://github.com/moexy/shadowsocksr.git
 
 CentOS / Fedora:
 
-    yum -y install git
-    git clone https://github.com/moexy/shadowsocksr.git
+    yum -y install git
+    git clone https://github.com/moexy/shadowsocksr.git
     
 openSUSE:
     
