@@ -9,6 +9,7 @@ Server
 ------
 
 ### Install
+Please install python3 first
 
 Debian / Ubuntu:
 
@@ -26,13 +27,14 @@ openSUSE:
     git clone https://github.com/moexy/shadowsocksr.git
 
 FreeBSD:
+
     cd /usr/ports/devel/git
     make install clean
     git clone https://github.com/moexy/shadowsocksr.git
 
 Windows:
 
-    git clone https://github.com/shadowsocksr/shadowsocksr.git
+    git clone https://github.com/moexy/shadowsocksr.git
 
 ### Usage for single user on unix based platform
 
